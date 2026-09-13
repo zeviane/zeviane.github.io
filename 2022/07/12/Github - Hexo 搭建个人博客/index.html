@@ -28,7 +28,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://brightloong.github.io/images/hexo_github.jpg">
 <meta property="article:published_time" content="2022-07-12T07:07:00.000Z">
-<meta property="article:modified_time" content="2026-09-13T11:57:29.230Z">
+<meta property="article:modified_time" content="2026-09-13T12:29:39.645Z">
 <meta property="article:author" content="Zev">
 <meta property="article:tag" content="Fluid">
 <meta name="twitter:card" content="summary_large_image">
@@ -399,11 +399,11 @@
               <div class="markdown-body">
                 
                 <h1 id="Github-Hexo-搭建个人博客"><a href="#Github-Hexo-搭建个人博客" class="headerlink" title="Github + Hexo 搭建个人博客"></a>Github + Hexo 搭建个人博客</h1><p>看到别人搭建的个人博客属实羡慕，但苦于技术有限，什么前端后端、css，最重要的还得要服务器、域名、备案等等一大堆东西，搞得头都要昏。这些对于小白来说真的太难了&#x2F;(ㄒoㄒ)&#x2F;~~，那有没有什么不需要购买服务器、域名、就能搭的博客呢？当然有！~它就是 <strong>Hexo</strong> ！</p>
-<h4 id="什么是-Hexo-？"><a href="#什么是-Hexo-？" class="headerlink" title="什么是 Hexo ？"></a>什么是 <strong>Hexo</strong> ？</h4><ul>
+<h2 id="什么是-Hexo-？"><a href="#什么是-Hexo-？" class="headerlink" title="什么是 Hexo ？"></a>什么是 <strong>Hexo</strong> ？</h2><ul>
 <li><strong>hexo</strong> 是一款基于 Node.js 简洁高效的静态博客框架，可以方便的生成静态网页托管在 <strong>GitHub</strong> 上，大家可以进入 <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">hexo官网</a> 进行详细的查看.</li>
 </ul>
 <hr>
-<h3 id="一、准备工作"><a href="#一、准备工作" class="headerlink" title="一、准备工作"></a><strong>一、准备工作</strong></h3><h4 id="1-GitHub-pages"><a href="#1-GitHub-pages" class="headerlink" title="1. GitHub pages"></a><strong>1. GitHub pages</strong></h4><ul>
+<h2 id="一、准备工作"><a href="#一、准备工作" class="headerlink" title="一、准备工作"></a><strong>一、准备工作</strong></h2><h3 id="1-GitHub-pages"><a href="#1-GitHub-pages" class="headerlink" title="1. GitHub pages"></a><strong>1. GitHub pages</strong></h3><ul>
 <li>注册 Gtihub 帐号</li>
 <li>创建仓库</li>
 </ul>
@@ -414,7 +414,7 @@
 <p><img src="https://cdn.jsdelivr.net/gh/zeviane/Image@main/Image/20220714152559.png" srcset="/img/loading.gif" lazyload></p>
 <p>注意这里把你的<strong>仓库地址</strong> 复制下来留着备用<br><img src="https://cdn.jsdelivr.net/gh/zeviane/Image@main/Image/20220715151736.png" srcset="/img/loading.gif" lazyload></p>
 <hr>
-<h4 id="2-安装运行环境"><a href="#2-安装运行环境" class="headerlink" title="2. 安装运行环境"></a><strong>2. 安装运行环境</strong></h4><ul>
+<h3 id="2-安装运行环境"><a href="#2-安装运行环境" class="headerlink" title="2. 安装运行环境"></a><strong>2. 安装运行环境</strong></h3><ul>
 <li><p><strong>git官网：<a target="_blank" rel="noopener" href="https://git-scm.com/">https://git-scm.com/</a></strong></p>
 </li>
 <li><p><strong>nodejs官网：<a target="_blank" rel="noopener" href="https://nodejs.org/en/">https://nodejs.org/en/</a></strong></p>
@@ -436,13 +436,13 @@
 </ul>
 <h4 id="2-2安装-nodejs"><a href="#2-2安装-nodejs" class="headerlink" title="2.2安装 nodejs"></a><strong>2.2安装 nodejs</strong></h4><p>去官网下载 <strong>nodejs</strong> ，下载完安装。完毕后打开<strong>cmd</strong> 输入 <strong>node -v &amp; npm -v</strong>，若出现版本号则成功.<br><img src="https://cdn.jsdelivr.net/gh/zeviane/Image@main/Image/20220714151655.png" srcset="/img/loading.gif" lazyload></p>
 <hr>
-<h3 id="二、安装Hexo"><a href="#二、安装Hexo" class="headerlink" title="二、安装Hexo"></a>二、安装Hexo</h3><h4 id="1-在某个盘新建一个-hexo-文件夹，用于存放-hexo文件-。进入该文件夹中，右击鼠标选择-git-bash-here"><a href="#1-在某个盘新建一个-hexo-文件夹，用于存放-hexo文件-。进入该文件夹中，右击鼠标选择-git-bash-here" class="headerlink" title="1.在某个盘新建一个 hexo 文件夹，用于存放 hexo文件 。进入该文件夹中，右击鼠标选择 git bash here"></a>1.在某个盘新建一个 hexo 文件夹，用于存放 hexo文件 。进入该文件夹中，右击鼠标选择 git bash here</h4><p><img src="https://cdn.jsdelivr.net/gh/zeviane/Image@main/Image/20220714154651.png" srcset="/img/loading.gif" lazyload></p>
-<h4 id="2-在git-窗口中输入-npm-inatsll-g-hexo-cli-进行安装，完毕后输入-hexo-v-若出现版本号则安装成功。"><a href="#2-在git-窗口中输入-npm-inatsll-g-hexo-cli-进行安装，完毕后输入-hexo-v-若出现版本号则安装成功。" class="headerlink" title="2.在git 窗口中输入 npm inatsll -g hexo-cli 进行安装，完毕后输入 hexo -v 若出现版本号则安装成功。"></a>2.在git 窗口中输入 npm inatsll -g hexo-cli 进行安装，完毕后输入 hexo -v 若出现版本号则安装成功。</h4><p><img src="https://cdn.jsdelivr.net/gh/zeviane/Image@main/Image/20220714154835.png" srcset="/img/loading.gif" lazyload></p>
+<h2 id="二、安装Hexo"><a href="#二、安装Hexo" class="headerlink" title="二、安装Hexo"></a>二、安装Hexo</h2><h3 id="1-在某个盘新建一个-hexo-文件夹，用于存放-hexo文件-。进入该文件夹中，右击鼠标选择-git-bash-here"><a href="#1-在某个盘新建一个-hexo-文件夹，用于存放-hexo文件-。进入该文件夹中，右击鼠标选择-git-bash-here" class="headerlink" title="1.在某个盘新建一个 hexo 文件夹，用于存放 hexo文件 。进入该文件夹中，右击鼠标选择 git bash here"></a>1.在某个盘新建一个 hexo 文件夹，用于存放 hexo文件 。进入该文件夹中，右击鼠标选择 git bash here</h3><p><img src="https://cdn.jsdelivr.net/gh/zeviane/Image@main/Image/20220714154651.png" srcset="/img/loading.gif" lazyload></p>
+<h3 id="2-在git-窗口中输入-npm-inatsll-g-hexo-cli-进行安装，完毕后输入-hexo-v-若出现版本号则安装成功。"><a href="#2-在git-窗口中输入-npm-inatsll-g-hexo-cli-进行安装，完毕后输入-hexo-v-若出现版本号则安装成功。" class="headerlink" title="2.在git 窗口中输入 npm inatsll -g hexo-cli 进行安装，完毕后输入 hexo -v 若出现版本号则安装成功。"></a>2.在git 窗口中输入 npm inatsll -g hexo-cli 进行安装，完毕后输入 hexo -v 若出现版本号则安装成功。</h3><p><img src="https://cdn.jsdelivr.net/gh/zeviane/Image@main/Image/20220714154835.png" srcset="/img/loading.gif" lazyload></p>
 <p><img src="https://cdn.jsdelivr.net/gh/zeviane/Image@main/Image/20220714154945.png" srcset="/img/loading.gif" lazyload></p>
-<h4 id="3-初始化-hexo"><a href="#3-初始化-hexo" class="headerlink" title="3.初始化 hexo"></a>3.初始化 hexo</h4><p>输入 <strong>hexo init</strong> 等待结束</p>
-<h4 id="4-启动hexo"><a href="#4-启动hexo" class="headerlink" title="4.启动hexo"></a>4.启动hexo</h4><p>输入 <strong>hexo s</strong><br>启动本地服务器，打开浏览器，地址栏输入 <a href="http://localhost:4000.com">http://localhost:4000.com</a> 即可访问 hexo<br><img src="https://img0.baidu.com/it/u=2472286692,1482764503&fm=253&fmt=auto&app=138&f=JPEG?w=582&h=500" srcset="/img/loading.gif" lazyload alt="图片"></p>
+<h3 id="3-初始化-hexo"><a href="#3-初始化-hexo" class="headerlink" title="3.初始化 hexo"></a>3.初始化 hexo</h3><p>输入 <strong>hexo init</strong> 等待结束</p>
+<h3 id="4-启动hexo"><a href="#4-启动hexo" class="headerlink" title="4.启动hexo"></a>4.启动hexo</h3><p>输入 <strong>hexo s</strong><br>启动本地服务器，打开浏览器，地址栏输入 <a href="http://localhost:4000.com">http://localhost:4000.com</a> 即可访问 hexo<br><img src="https://img0.baidu.com/it/u=2472286692,1482764503&fm=253&fmt=auto&app=138&f=JPEG?w=582&h=500" srcset="/img/loading.gif" lazyload alt="图片"></p>
 <hr>
-<h3 id="三、部署到-GitHub"><a href="#三、部署到-GitHub" class="headerlink" title="三、部署到 GitHub"></a>三、部署到 GitHub</h3><h4 id="1-设置-ssh"><a href="#1-设置-ssh" class="headerlink" title="1. 设置 ssh"></a>1. 设置 ssh</h4><p>输入命令 <strong>cd ~ &#x2F;.ssh</strong><br><img src="https://cdn.jsdelivr.net/gh/zeviane/Image@main/Image/20220715140252.png" srcset="/img/loading.gif" lazyload></p>
+<h2 id="三、部署到-GitHub"><a href="#三、部署到-GitHub" class="headerlink" title="三、部署到 GitHub"></a>三、部署到 GitHub</h2><h3 id="1-设置-ssh"><a href="#1-设置-ssh" class="headerlink" title="1. 设置 ssh"></a>1. 设置 ssh</h3><p>输入命令 <strong>cd ~ &#x2F;.ssh</strong><br><img src="https://cdn.jsdelivr.net/gh/zeviane/Image@main/Image/20220715140252.png" srcset="/img/loading.gif" lazyload></p>
 <p>再次输入 <strong>ssh-keygen -t rsa -C ‘你注册github用的邮箱’</strong></p>
 <p><img src="https://cdn.jsdelivr.net/gh/zeviane/Image@main/Image/20220715140557.png" srcset="/img/loading.gif" lazyload></p>
 <p><img src="https://cdn.jsdelivr.net/gh/zeviane/Image@main/Image/20220715145859.png" srcset="/img/loading.gif" lazyload></p>
@@ -460,22 +460,22 @@ git config --global user.email &quot;注册github使用的邮箱&quot;**
 </code></pre>
 <p><img src="https://cdn.jsdelivr.net/gh/zeviane/Image@main/Image/20220715144444.png" srcset="/img/loading.gif" lazyload></p>
 <p><img src="https://cdn.jsdelivr.net/gh/zeviane/Image@main/Image/20220715144525.png" srcset="/img/loading.gif" lazyload></p>
-<h4 id="2-安装上传工具"><a href="#2-安装上传工具" class="headerlink" title="2. 安装上传工具"></a>2. 安装上传工具</h4><p>输入命令 <strong>npm install hexo-deployer-git - -save</strong><br><strong>（注意这里 save 前面是两条相连的杠 - -，中间没有空格，我这里为了凸显加了空格。不加连一起了看起来就跟一条杠一样，以图为准。）</strong></p>
+<h3 id="2-安装上传工具"><a href="#2-安装上传工具" class="headerlink" title="2. 安装上传工具"></a>2. 安装上传工具</h3><p>输入命令 <strong>npm install hexo-deployer-git - -save</strong><br><strong>（注意这里 save 前面是两条相连的杠 - -，中间没有空格，我这里为了凸显加了空格。不加连一起了看起来就跟一条杠一样，以图为准。）</strong></p>
 <p><img src="https://cdn.jsdelivr.net/gh/zeviane/Image@main/Image/20220715143543.png" srcset="/img/loading.gif" lazyload></p>
-<h4 id="3-修改-hexo-配置文件-config-yml"><a href="#3-修改-hexo-配置文件-config-yml" class="headerlink" title="3.修改 hexo 配置文件_config.yml"></a>3.修改 hexo 配置文件_config.yml</h4><p>进入 <strong>hexo</strong> 文件夹内，找到并打开 <strong>_config.yml</strong> 文件，直接拉到最下面修改<br><strong># Deployment</strong> 这部分， 这里把你之前复制的 <strong>仓库地址</strong> 添加到配置文件中:</p>
+<h3 id="3-修改-hexo-配置文件-config-yml"><a href="#3-修改-hexo-配置文件-config-yml" class="headerlink" title="3.修改 hexo 配置文件_config.yml"></a>3.修改 hexo 配置文件_config.yml</h3><p>进入 <strong>hexo</strong> 文件夹内，找到并打开 <strong>_config.yml</strong> 文件，直接拉到最下面修改<br><strong># Deployment</strong> 这部分， 这里把你之前复制的 <strong>仓库地址</strong> 添加到配置文件中:</p>
 <pre><code class="hljs">deploy:
   type: git
   repo: 这里填写你复制的仓库地址
 branch: master
 </code></pre>
 <p><img src="https://cdn.jsdelivr.net/gh/zeviane/Image@main/Image/20220715152148.png" srcset="/img/loading.gif" lazyload></p>
-<h4 id="4-部署到-GitHub-上"><a href="#4-部署到-GitHub-上" class="headerlink" title="4. 部署到 GitHub 上"></a>4. 部署到 GitHub 上</h4><p>输入命令 <strong>hexo d -g</strong> 部署到 <strong>Github</strong> 上 <strong>(注意：要在 hexo 目录下执行)</strong></p>
+<h3 id="4-部署到-GitHub-上"><a href="#4-部署到-GitHub-上" class="headerlink" title="4. 部署到 GitHub 上"></a>4. 部署到 GitHub 上</h3><p>输入命令 <strong>hexo d -g</strong> 部署到 <strong>Github</strong> 上 <strong>(注意：要在 hexo 目录下执行)</strong></p>
 <p><img src="https://cdn.jsdelivr.net/gh/zeviane/Image@main/Image/20220715145042.png" srcset="/img/loading.gif" lazyload></p>
 <p><img src="https://cdn.jsdelivr.net/gh/zeviane/Image@main/Image/20220715150903.png" srcset="/img/loading.gif" lazyload></p>
 <p>此时再回到浏览器刷新一下，你会发现仓库里多了一些文件</p>
 <p><img src="https://cdn.jsdelivr.net/gh/zeviane/Image@main/Image/20220715150952.png" srcset="/img/loading.gif" lazyload></p>
 <p>在浏览器地址栏输入你的 <strong>用户名.github.io</strong> 就可以访问你的博客啦~ 如何发文章换主题详见 <strong><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">官方文档</a></strong></p>
-<h4 id="5-将本地hexo源码备份到github，防止电脑硬盘格式化而丢失，维护麻烦。"><a href="#5-将本地hexo源码备份到github，防止电脑硬盘格式化而丢失，维护麻烦。" class="headerlink" title="5. 将本地hexo源码备份到github，防止电脑硬盘格式化而丢失，维护麻烦。"></a>5. 将本地hexo源码备份到github，防止电脑硬盘格式化而丢失，维护麻烦。</h4><ol>
+<h3 id="5-将本地hexo源码备份到github，防止电脑硬盘格式化而丢失，维护麻烦。"><a href="#5-将本地hexo源码备份到github，防止电脑硬盘格式化而丢失，维护麻烦。" class="headerlink" title="5. 将本地hexo源码备份到github，防止电脑硬盘格式化而丢失，维护麻烦。"></a>5. 将本地hexo源码备份到github，防止电脑硬盘格式化而丢失，维护麻烦。</h3><ol>
 <li><p>创建私有仓库<br>在 GitHub 上新建一个仓库，命名为 hexo-source，可见性选择 Private，不要勾选 README、.gitignore 等初始化选项。</p>
 </li>
 <li><p>在本地 Hexo 项目根目录创建 .gitignore 文件<br>内容如下，用于排除不需要备份的文件（如依赖包、生成的静态文件等）：</p>
